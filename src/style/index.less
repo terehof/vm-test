@@ -1,11 +1,40 @@
 
 html {
     background: @white;
+    font-size: 10px;
 }
-h1 {
-    color: @white;
-    font-size: 30px;
-    margin-top: 500px;
-    transition: all 0.25s ease;
+body {
+    font-family: 'Museo', 'MuseoSans', Arial;
+}
+
+.clear {
+    clear: both;
+}
+.clearfix {
+    &:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
+
+
+
+.section {
+    &.section-top {
+
+    }
+}
+header {
+
+}
+.header-logo {
+    width: 15.8rem;
+    height: 13.5rem;
+    background: url(../images/header-logo.png) no-repeat;
+    background-size: 100%;
+}
+
+.section-top__content {
 
 }
